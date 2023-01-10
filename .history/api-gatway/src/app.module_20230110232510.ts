@@ -14,9 +14,6 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
             clientId: 'billing',
             brokers: ['localhost:9092'],
           },
-          consumer: {
-            groupId: 'billing-consumer',
-          },
         },
       },
     ]),

@@ -11,6 +11,6 @@ export class AppService {
     return 'Hello World!';
   }
   CreateOrder({ userId, price }: CreateOrderRequest) {
-    this.billingClients.emit('order_created', {});
+    this.billingClients.emit('order_created');
   }
 }
