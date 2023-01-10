@@ -8,7 +8,6 @@ async function bootstrap() {
     AppModule,
     {
       Transport: Transport.KAFKA,
-      options,
     },
   );
 }
